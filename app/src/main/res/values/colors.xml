@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#00A700</color>
+    <color name="colorPrimaryDark">#008200</color>
+    <color name="colorAccent">#FDD835</color>
+    <color name="sky">#72C8F2</color>
+    <color name="text">#FFFFFFFF</color>
+    <color name="on_air_background">#FFFF0000</color>
+    <color name="off_air_background">#A01E1E</color>
+</resources>

@@ -1,0 +1,29 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="app_bar_height">180dp</dimen>
+
+    <dimen name="widget_title_textsize">16sp</dimen> <!-- Material Design, Subtitle 1 -->
+    <dimen name="widget_label_textsize">12sp</dimen> <!-- Material Design, Caption -->
+    <dimen name="widget_info_textsize">14sp</dimen> <!-- Material Design, Body 2 -->
+
+    <dimen name="list_item_title_textsize">24sp</dimen> <!-- Material Design, Heading 5 -->
+    <dimen name="list_item_body_textsize">14sp</dimen> <!-- Material Design, Subtitle 2 -->
+
+    <dimen name="details_info_textsize">24sp</dimen> <!-- Material Design, Heading 6 -->
+
+    <dimen name="on_off_air_textsize">60dp</dimen> <!-- Material Design, Heading 2 -->
+
+    <dimen name="default_image_size">88dp</dimen>
+    <dimen name="default_image_padding">8dp</dimen>
+
+    <dimen name="record_title_textsize">34sp</dimen> <!-- Material Design, Heading 4 -->
+    <dimen name="record_subtitle_textsize">16sp</dimen> <!-- Material Design, Subtitle 1 -->
+
+    <dimen name="acknowledgments_textsize">24sp</dimen> <!-- Material Design, Heading 6 -->
+
+    <!--
+        Refer to App Widget Documentation for margin information
+        http://developer.android.com/guide/topics/appwidgets/index.html#CreatingLayout
+    -->
+    <dimen name="widget_margin">8dp</dimen>
+</resources>

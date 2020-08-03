@@ -1,0 +1,68 @@
+<resources>
+    <string name="app_name">Birdcall Librarian</string>
+    <string name="title_activity_details">Birdcall Details</string>
+    <string name="not_specified">Not specified</string>
+
+    <!-- MainActivity -->
+    <string name="birdcall_deleted">Birdcall Deleted.</string>
+    <string name="birdcall_undo_delete">Undo</string>
+    <string name="action_record">Record</string>
+    <string name="action_acknowledgments">Acknowledgments</string>
+    <string name="icon_acknowledgment">Icon made by Freepik from www.flaticon.com.</string>
+
+    <!-- RecordActivity -->
+    <string name="title_activity_not_started">Birdcall Recorder</string>
+    <string name="title_activity_started">NOW Recording...</string>
+    <string name="title_activity_ended">Birdcall Saved</string>
+    <string name="record_on_air">ON-AIR</string>
+    <string name="record_off_air">OFF-AIR</string>
+    <string name="birdcall_saved">Birdcall saved.</string>
+    <string name="permissions_denied">You will not be able to record birdcalls unless you grant permission to record audio and access the current location.</string>
+    <string name="action_stop_recording">Stop</string>
+
+    <!-- RecordActivity: Location -->
+    <string name="error_location_request_result_empty">Location empty.</string>
+    <string name="error_location_update_settings_disabled">Location settings incorrect. Please set Location mode to High accuracy and Scanning to WiFi scanning.</string>
+    <string name="error_location_update_settings_incorrect">Location settings incorrect.</string>
+    <string name="error_location_not_available">Location unavailable.</string>
+
+    <!-- DetailsActivity -->
+    <string name="species_hint">Species</string>
+    <string name="title_hint">Title</string>
+    <string name="notes_hint">Notes</string>
+    <string name="lat_long">Lat %1$.2f, Long %2$.2f</string>
+    <string name="action_play_birdcall">Play</string>
+    <string name="action_update_birdcall">Save</string>
+    <string name="playing_birdcall">Playing birdcall...</string>
+
+    <!-- Default birdcall species, title. -->
+    <string name="default_birdcall_title">%s Birdcall</string>
+    <string name="default_birdcall_title_morning">Morning</string>
+    <string name="default_birdcall_title_afternoon">Afternoon</string>
+    <string name="default_birdcall_title_evening">Evening</string>
+    <string name="default_birdcall_title_night">Night</string>
+
+    <!-- Widget -->
+    <string name="widget_play">Play</string>
+    <string name="widget_record">Record</string>
+    <string name="widget_info">No recently recorded birdcalls.</string>
+    <string name="widget_recetly_active_birdcall">Last birdcall recorded "%s"."</string>
+
+    <!-- Errors -->
+    <string name="error_preparing_to_record">Error whilst preparing to record.</string>
+    <string name="error_preparing_to_play">Error whilst preparing to play.</string>
+    <string name="warning_max_file_size_reached">Maximum birdcall recording size reached.</string>
+    <string name="error_during_recording">Error whilst recording.</string>
+    <string name="error_during_playback">Error during playback.</string>
+    <string name="error_temp_file_not_found">Error, temporary recording file does not eixst.</string>
+    <string name="error_loading_temp_file">Error loading temporary recording file.</string>
+
+    <!-- Content descriptions. -->
+    <string name="describe_widget_record">Launch and record</string>
+    <string name="describe_widget_play">Launch and play</string>
+    <string name="describe_next">Next recipe step</string>
+    <string name="describe_fab_record">Record birdcall</string>
+    <string name="describe_fab_play">Play birdcall</string>
+    <string name="describe_fab_stop">Stop recording</string>
+    <string name="title_activity_acknowledgments">Acknowledgments</string>
+</resources>

@@ -1,0 +1,96 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <!-- Transitions. -->
+        <item name="android:windowExitTransition">@transition/activity_exit</item>
+        <item name="android:windowEnterTransition">@transition/activity_enter</item>
+    </style>
+
+    <!-- Themes from Android Studio template. -->
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <!-- List item themes. -->
+    <style name="ListItemTitle">
+        <item name="android:textSize">@dimen/list_item_title_textsize</item>
+        <item name="android:textColor">@color/text</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+
+    <style name="ListItemBody">
+        <item name="android:textSize">@dimen/list_item_body_textsize</item>
+        <item name="android:textColor">@color/text</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+
+    <!-- RecordActivity themes. -->
+    <style name="RecordTitle">
+        <item name="android:textSize">@dimen/record_title_textsize</item>
+        <item name="android:textColor">@color/text</item>
+    </style>
+
+    <style name="RecordSubtitle">
+        <item name="android:textSize">@dimen/record_subtitle_textsize</item>
+        <item name="android:textColor">@color/text</item>
+    </style>
+
+    <style name="OnOffAir">
+        <item name="android:textSize">@dimen/on_off_air_textsize</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/text</item>
+        <item name="android:background">@color/off_air_background</item>
+        <item name="android:paddingTop">16dp</item>
+        <item name="android:paddingBottom">16dp</item>
+        <item name="android:paddingLeft">40dp</item>
+        <item name="android:paddingRight">40dp</item>
+    </style>
+
+    <!-- DetailsActivity themes. -->
+    <style name="DetailsInfo">
+        <item name="android:textSize">@dimen/details_info_textsize</item>
+        <item name="android:textColor">@color/text</item>
+        <item name="android:textColorHint">@color/colorAccent</item>
+    </style>
+
+    <!-- AcknowledgmentsActivity theme. -->
+    <style name="Acknowledgments">
+        <item name="android:textSize">@dimen/acknowledgments_textsize</item>
+        <item name="android:textColor">@color/text</item>
+        <item name="android:padding">16dp</item>
+
+    </style>
+
+    <!-- Widget themes. -->
+    <style name="WidgetTitle">
+        <item name="android:textSize">@dimen/widget_title_textsize</item>
+        <item name="android:textColor">@color/text</item>
+        <item name="android:background">@color/colorPrimary</item>
+        <item name="android:padding">8dp</item>
+    </style>
+
+    <style name="WidgetLabel">
+        <item name="android:textSize">@dimen/widget_label_textsize</item>
+        <item name="android:textColor">@color/text</item>
+    </style>
+
+    <style name="WidgetInfo">
+        <item name="android:textSize">@dimen/widget_info_textsize</item>
+        <item name="android:textColor">@color/text</item>
+        <item name="android:padding">8dp</item>
+    </style>
+
+</resources>
