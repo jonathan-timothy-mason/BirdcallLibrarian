@@ -11,11 +11,11 @@ android {
         versionName "1.0"
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
-    // From answer to "Why I don't have installReleae in my gradle tasks?" by Ngenge S:
+    // From answer to "Why I don't have installRelease in my gradle tasks?" by Ngenge S:
     // https://knowledge.udacity.com/questions/68014.
     signingConfigs {
         releaseConfig {
-            storeFile file('../keystore.jks')
+            storeFile file('../../Keystores/BirdcallLibrarian/keystore.jks')
             storePassword 'REMOVED'
             keyAlias = 'BirdcallLibrarian'
             keyPassword 'REMOVED'
