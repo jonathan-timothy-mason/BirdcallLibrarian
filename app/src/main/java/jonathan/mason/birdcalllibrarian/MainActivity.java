@@ -30,6 +30,13 @@ import jonathan.mason.birdcalllibrarian.Database.MainActivityViewModel;
 
 /**
  * Main screen of app, displaying birdcalls.
+ *
+ * To do:
+ * Mandatory
+ * Generate new Google Maps API key and release new version of app.
+ *
+ * Desirable
+ * Make Google map navigable using retained fragment.
  */
 public class MainActivity extends AppCompatActivity implements BirdcallsAdapter.BirdcallSelectionListener {
     @BindView(R.id.birdcalls_recycler_view) RecyclerView mBirdcallsRecyclerView;
